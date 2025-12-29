@@ -1,4 +1,5 @@
-DROP TABLE IF EXISTS user_roles;
-DROP TABLE IF EXISTS roles;
-DROP TABLE IF EXISTS sessions;
-DROP TABLE IF EXISTS users;
+-- Rollback Better Auth Schema
+DROP TABLE IF EXISTS "verification";
+DROP TABLE IF EXISTS "account";
+DROP TABLE IF EXISTS "session";
+DROP TABLE IF EXISTS "user";
